@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RollOfDice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="players">
+        <div class="player p1">
+            <h1 class="title">PLAYER 1</h1>
+            <h1 class="score score-p1">0</h1>
+            <div class="current">
+                <h3 class="subtitle">CURRENT</h3>
+                <h3 class="current-score current-score-p1">0</h3>
+            </div>
+        </div>
+
+        <div class="player p2 hidden">
+            <h1 class="title">PLAYER 2</h1>
+            <h1 class="score score-p2">0</h1>
+            <div class="current">
+                <h3 class="subtitle">CURRENT</h3>
+                <h3 class="current-score current-score-p2">0</h3>
+            </div>
+        </div>
+    </div>
+    <div class="buttons">
+        <div class="top">
+            <div class="button-new_game btn">
+                <p>NEW GAME</p>
+            </div>
+        </div>
+        <div class="middle">
+
+        </div>
+        <div class="bottom">
+            <div class="button-roll_dice btn">
+                <p>ROLL DICE</p>
+            </div>
+            <div class="button-hold btn">
+                <p>HOLD</p>
+            </div>
+        </div>
+    </div>
+    <div class="button-walkthrough">
+        <p>Walk Through</p>
+    </div>
+    <div class="walkthrough">
+        <h1 class="close-button">X</h1>
+        <h1 class="title">How to Play this game</h1>
+        <p>Click '<valuable>ROLL DICE</valuable>' to get your score.</p>
+        <p>This score will keep adding to your '<valuable>CURRENT</valuable>' score.</p>
+        <p>If you press hold, this '<valuable>CURRENT</valuable>' score will get added to your main score.</p>
+        <p>If you keep pressing '<valuable>ROLL DICE</valuable>' and you get '<valuable>1</valuable>' on your dice, your '<valuable>CURRENT</valuable>' score will turn '<valuable>0</valuable>' and next player will get the chance to roll dice.</p>
+        <p>'<valuable>NEW GAME</valuable>' is to reset the game.</p>
+    </div>
+    <div class="blur"></div>
+    <script src="script.js"></script>
+</body>
+</html>
